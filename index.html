@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOTP Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="app-header">
+    <div class="header-left">
+      <h1>TOTP Generator</h1>
+      <span class="subtitle">Local 2FA Code Generator</span>
+    </div>
+    <div class="header-right">
+      <button id="btn-lang" class="btn-icon" title="Switch language">JA</button>
+    </div>
+  </header>
+
+  <div id="security-warning" class="security-warning"></div>
+
+  <main class="app-main">
+    <div class="toolbar">
+      <button id="btn-add-account" class="btn-primary btn-add">+ Add Account</button>
+      <div class="toolbar-right">
+        <button id="btn-import-file" class="btn-secondary">Import</button>
+        <button id="btn-export" class="btn-secondary">Export</button>
+      </div>
+    </div>
+
+    <div id="accounts-container" class="accounts-container">
+      <p class="empty-state">No accounts yet. Add one to get started.</p>
+    </div>
+  </main>
+
+  <!-- Modal overlay -->
+  <div id="modal-overlay" class="modal-overlay hidden">
+    <div id="modal-content" class="modal-content"></div>
+  </div>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
