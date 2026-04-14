@@ -61,3 +61,10 @@ Tests cover:
 ## License
 
 MIT © 2026 SEN LLC (SEN 合同会社)
+
+<!-- sen-publish:links -->
+## Links
+
+- 🌐 Demo: https://sen.ltd/portfolio/totp-generator/
+- 📝 dev.to: https://dev.to/sendotltd/implementing-totp-from-scratch-rfc-6238-test-vectors-and-web-crypto-10fl
+<!-- /sen-publish:links -->
